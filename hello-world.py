@@ -1,12 +1,12 @@
 #!/usr/bin/python
 
-def printme(str):
-	#this is a string
-	print str
-	return ;
-	
-#Main
 
+def print_me(message):
+    # this is a string
+    print message
+    return
+
+# Main
 print "hello world"
-printme("this is a function")
+print_me("this is a function")
 
